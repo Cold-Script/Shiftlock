@@ -20,7 +20,7 @@ LockButton.ZIndex = 3
 LockButton.Image = "rbxassetid://530406505"
 task.spawn(function()
 while wait() do
-LockButton.ImageColor3 = Color3.fromHSV(tick() % 5/5,1,1)
+LockButton.ImageColor3 = Color3.fromRGB(0, 170, 255)
 end
 end)
 LockButton.ImageRectOffset = Vector2.new(2, 2)
